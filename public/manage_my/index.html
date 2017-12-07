@@ -6,16 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!-- 引入bootstrap的css -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-validator/css/bootstrapValidator.css">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi deserunt cupiditate, quos non delectus perferendis culpa!
-    Dicta minus enim at quas velit fugiat sequi deserunt eum amet aliquam rem cum, iusto temporibus obcaecati? Asperiores,
-    quasi! Perspiciatis ea, quidem in, corrupti nostrum culpa, repellendus aspernatur odio quibusdam beatae sapiente! Earum
-    quaerat laborum error molestiae optio hic, quisquam, commodi asperiores facere sed totam accusantium saepe reiciendis
-    nihil explicabo dignissimos illum, consequatur expedita? Amet voluptate consectetur aspernatur, odit molestiae, facere
-    nostrum possimus officiis qui voluptatibus cum ea eius, nihil reprehenderit delectus optio fuga eveniet vel. Dolor culpa
-    sit perferendis sapiente adipisci ipsa magnam?
+    <div class="le_aside">
+        <header>
+            <a href="#">
+                <h3>ITCAST </h3>
+            </a>
+        </header>
+        <div class="main">
+            <div class="adminer">
+                <img src="./images/default.png" alt="">
+                <span>超级管理者</span>
+            </div>
+            <ul>
+                <li class="active">
+                    <a href="#">
+                        <i class="glyphicon glyphicon-user"></i>
+                        <span>用户管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="glyphicon glyphicon-list"></i>
+                        <span>分类管理</span>
+                        <ol>
+                            <li>
+                                <a href="#">一级分类</a>
+                            </li>
+                            <li>
+                                <a href="#">二级分类</a>
+                            </li>
+                        </ol>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="glyphicon glyphicon-tag"></i>
+                        <span>商品管理</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="le_content">
+        <header>
+            <a href="#" class="clearfix">
+                <i class="glyphicon glyphicon-qrcode pull-left"></i>
+                <i class="glyphicon glyphicon-log-out pull-right"></i>
+            </a>
+        </header>
+        <div class="main clearfix">
+            <ol class="breadcrumb">
+                <li>
+                    <a href="#">管理系统</a>
+                </li>
+                <li>
+                    <a href="#" class="userAd">用户管理</a>
+                </li>
+            </ol>
+             <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+            <div id="left" style="width: 600px;height:400px;" class="pull-left"></div>
+            <div id="right" style="width: 600px;height:400px;" class="pull-right"></div>
+        </div>
+    </div>
 </body>
 
 </html>
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.js"></script>
+<script src="./lib/echarts/echarts.min.js"></script>
+<script src="./js/index.js"></script>

@@ -1,0 +1,86 @@
+body,
+html{
+    height: 100%;
+}
+/*侧边栏 */
+    .le_aside{
+        width: 180px;
+        height: 100%;
+        background-color: #222d32;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .le_aside header{
+        height: 50px;
+        background-color: #367fa9;
+    }
+    .le_aside header h3{
+        margin: 0px;
+        color: #fff;
+        line-height: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .le_aside .main .adminer{
+        margin: 30px 10px;
+    }
+    .le_aside .main .adminer img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .le_aside .main .adminer span{
+        color: #fff;
+    }
+    .le_aside .main ul{
+        padding: 0;
+    }
+    .le_aside .main ul li{
+        list-style: none;
+        line-height: 40px;
+        padding-left: 30px;
+        border: 3px solid transparent;
+    }
+    .le_aside .main ul li a{
+        color: #aaa;
+        font-size: 14px;
+    }
+    .le_aside .main ul li.active{
+    border-left-color: #367fa9;
+    background-color: #000;
+    }
+    .le_aside .main ul li.active a{
+        color: #fff;
+    }
+    .le_aside .main ul li ol li{
+        padding-left: 10px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+/* 侧边栏结束 */
+
+/* 右边主体 */
+.le_content{
+    margin-left: 180px;
+}
+.le_content header{
+    height: 50px;
+    background-color: #3c8dbc;
+}
+.le_content header a{
+    display: block;
+    color: #fff;
+    height: 50px;
+    padding: 15px;
+ 
+}
+.le_content header a i{
+    font-size: 18px;
+}
+.le_content .breadcrumb{
+    margin: 20px;
+}
+.le_content .breadcrumb .userAd{
+    color: #000;
+}
