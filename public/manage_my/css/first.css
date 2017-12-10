@@ -10,3 +10,9 @@ table thead th{
     float:right;
     margin-right: 20px;
 }
+.form-group #fileupload{
+    width: 82px;
+    height: 34px;
+    position: absolute;
+    opacity: 0;
+}

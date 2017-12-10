@@ -135,37 +135,38 @@
                     <h4 class="modal-title">添加分类</h4>
                 </div>
                 <div class="modal-body">
-                    <form>
-                        <div class="form-group clearfix">
-                            <span class="pull-left">一级分类 :</span>
-
-                            <div class="dropdown pull-left" style="margin:-10px 20px 0px;">
+                    <form id="form">
+                        <div class="form-group">
+                            <div class="dropdown" style="margin:-10px 20px 0px;">
+                                <span>一级分类 :</span>
                                 <button class="btn btn-default dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="true" >
-                                    请选择
+                                    <span class="select-value">请选择</span>
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li>
-                                        <a href="#"></a>
-                                    </li>
+                                    <li><a href="#"></a></li>
                                 </ul>
                             </div>
+                            <input type="text" name="categoryId"> 
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="请输入二级分类的名称">
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="请输入二级分类的名称" name="brandName">
                         </div>
                         <div class="form-group">
-                            <input type="file" id="exampleInputFile">
+                            <input type="file" id="fileupload" name="pic1" data-url="/category/addSecondCategoryPic">
+                            <a href="javascript:void(0)" class="btn btn-default">上传图片</a>
                         </div>
                         <div class="form-group">
                             <img src="./images/none.png" alt="" style="width:100;height:100px;">
+                            <input type="text" name="brandLogo">
                         </div>
+                        
                     </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                    <button type="button" class="btn btn-primary">确认</button>
+                    <button type="submit" form="form" class="btn btn-primary">确认</button>
                 </div>
             </div>
             <!-- /.modal-content -->
@@ -186,11 +187,14 @@
         <td>{{$value.categoryName}}</td>
         <td>{{$value.brandName}}</td>
         <td>
-            <img src="{{$value.brandLogo}}" alt="" style="width:100px;">
+            <img src="{{$value.brandLogo}}" alt="" style="width:100px;height:50px;">
         </td>
     </tr>
     {{/each}}
 </script>
 <script src="./lib/bootstrap-paginator/bootstrap-paginator.min.js"></script>
+<script src="./lib/jquery-fileupload/jquery.ui.widget.js"></script>
+<script src="./lib/jquery-fileupload/jquery.fileupload.js"></script>
+<script src="./lib/bootstrap-validator/js/bootstrapValidator.js"></script>
 <script src="./js/common.js"></script>
 <script src="./js/second.js"></script>
