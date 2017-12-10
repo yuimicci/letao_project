@@ -1,0 +1,12 @@
+#addCategory,
+table{
+   margin: 20px 20px 0px;
+   text-align: center;
+}
+table thead th{
+    text-align: center;
+}
+#pagintor{
+    float:right;
+    margin-right: 20px;
+}

@@ -1,0 +1,8 @@
+table tr td,
+table tr th{
+    text-align: center;
+}
+#pagintor{
+    float: right;
+    margin-right: 20px;
+}
