@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.lt-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* 头部 */
+
+    .lt-container header {
+        width: 100%;
+        height: 40px;
+        background: #069;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 222;
+    }
+
+    .lt-container header a i {
+        font-size: 20px;
+    }
+
+    .lt-container header .btn-left {
+        position: absolute;
+        left: 15px;
+    }
+
+    .lt-container header .btn-right {
+        position: absolute;
+        right: 15px;
+    }
+
+    .lt-container header h3 {
+        color: #fff;
+        font-size: 18px;
+    }
+
+
+/* 头部 */
+
+/* 底部 */
+
+.lt-container footer {
+    width: 100%;
+    height: 55px;
+    background: #069;
+    z-index: 222;
+}
+
+.lt-container footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lt-container footer ul li {
+    flex: 1;
+    list-style: none;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+.lt-container footer ul li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    color:#fff;
+}
+.lt-container footer ul li a p{
+    margin-bottom: 0px;
+    color:#fff;
+}
+.lt-container footer ul li.active a{
+    color:darkorange;
+}
+.lt-container footer ul li.active p{
+    color:darkorange;
+}
+/* 底部 */

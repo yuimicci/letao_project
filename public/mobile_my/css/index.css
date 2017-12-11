@@ -1,0 +1,74 @@
+
+/* 中间 */
+    .lt-container .main{
+        flex: 1;
+    
+    }
+    .mui-scroll-wrapper{
+        background-color: #fff;
+    }
+    .mui-slider-indicator{
+        bottom:17px;
+    }
+    .lt-container .main #slider{
+        height: 235px;
+    }
+    .lt-container .main .lt_nav{
+        padding:5px 10px;
+    }
+    .lt-container .lt_nav a{
+        /* display: block; */
+        width: 33.333%;
+        float: left;
+    }
+    .lt-container .lt_nav a img{
+        width: 100%;
+    }
+    .lt-container .pro_list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:5px 10px;
+        flex-wrap: wrap;
+    }
+    .lt-container .pro_list a{
+        display: block;
+        width: 48%;
+        box-shadow: 0 0 5px #ccc;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 10px 5px;
+        margin-right: 10px;
+        background-color: #fff;
+    
+    }
+    .lt-container .pro_list a:nth-of-type(2n){
+        margin-right: 0px;
+    }
+    .lt-container .pro_list a .pic img{
+        width: 100%;
+    }
+    .lt-container .pro_list p{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: normal;
+        height: 40px;
+        font-size: 16px;
+        color: #007aff;
+    }
+    .lt-container .pro_list .price span:first-of-type{
+        font-size: 14px;
+        color: red;
+    }
+    .lt-container .pro_list .price span:last-of-type{
+        font-size: 12px;
+        color:#666;
+        text-decoration: line-through;
+    }
+    .lt-container .pro_list a button{
+        background-color: #007aff;
+        color: #fff;
+        margin-top: 10px;
+    }
+/* 中间 */
+
