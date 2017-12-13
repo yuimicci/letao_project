@@ -1,0 +1,66 @@
+.lt-container .main{
+    background-color: #fff;
+}
+.lt-container .main form{
+   padding: 10px;
+}
+.lt-container .main .mui-input-group .mui-input-row:after{
+    background-color:transparent;
+}
+.mui-input-group:after{
+    background-color: transparent;
+}
+.mui-input-group:before{
+    background-color: transparent;
+}
+.mui-input-row{
+    margin-bottom: 15px;
+}
+.lt-container .main form .mui-input-row input{
+    line-height: 21px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 4px;
+}
+.security-code{
+    display: flex;
+}
+.security-code input{
+    flex: 1;
+    margin-right: 10px;
+}
+.security-code a{
+    width: 105px;
+    height: 40px;
+    background-color: #007aff;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.lt-container .main form button{
+    width: 100%;
+    background-color: #007aff;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.lt-container .main form .regist-agree{
+    /* margin-top: 10px; */
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.lt-container .main form .regist-agree input{
+    margin-top: 12px;
+}
+.lt-container .main form .regist-agree span.agree{
+    margin-left: 5px;
+}
+.lt-container .main form .regist-agree span.re-login{
+    color: deepskyblue;
+}

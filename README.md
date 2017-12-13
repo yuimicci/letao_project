@@ -57,7 +57,7 @@ mui通过双webview解决这个DIV的拖动流畅度问题；拖动时，拖动�
         </div>
         <footer class="lt_tabBar"></footer>
     </div>
-<script src="assets/mui/js/mui.js"></script>
+<script src="./lib/mui/js/mui.js"></script>
 </body>
 </html>
 ```

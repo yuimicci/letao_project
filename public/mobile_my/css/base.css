@@ -108,3 +108,12 @@ html {
     color:darkorange;
 }
 /* 底部 */
+
+/* 中间 */
+.lt-container .main{
+    flex: 1;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+/* 中间 */

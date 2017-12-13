@@ -1,0 +1,58 @@
+.lt-container .main{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.lt-container .main .main-left{
+    width: 90px;
+    position: relative;
+}
+.lt-container .main .main-left ul{
+    width: 100%;
+}
+.lt-container .main .main-left ul li{
+    width: 100%;
+    background: #f3f4f5;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.lt-container .main .main-left ul li.active{
+    border-right: 0;
+    background-color: #fff;
+}
+.lt-container .main .main-left ul li a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #666;
+}
+.lt-container .main .main-right{
+    flex: 1;
+    position: relative;
+    background-color: #fff;
+}
+.lt-container .main .main-right ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+}
+.lt-container .main .main-right ul li{
+    width: 33.3333%;
+    text-align: center;
+}
+.lt-container .main .main-right ul li a{
+    display: block;
+    width: 100%;
+
+}
+.lt-container .main .main-right ul li a img{
+    width: 62px;
+    height: 62px;
+}
+.lt-container .main .main-right ul li a p{
+    text-align: center;
+    font-size: 14px;
+}

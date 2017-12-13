@@ -1,0 +1,83 @@
+.lt-container .main{
+    background-color: #fff;
+}
+.lt-container .main .detail_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+.lt-container .main .detail_list .dt-left{
+    width: 70px;
+}
+.lt-container .main .detail_list .dt-left img{
+    width: 60px;
+    height: 60px;
+}
+.lt-container .main .detail_list .dt-left input{}
+.lt-container .main .detail_list .dt-right{
+    flex: 1;
+}
+.lt-container .main .detail_list .dt-right p.title{
+    color: #333;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    display: -webkit-box;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+.lt-container .main .detail_list .dt-right .inf{
+    height: 30px;
+    line-height: 30px;
+}
+.lt-container .main .detail_list .dt-right .inf span.price{
+     color: red;
+     font-size: 14px;
+     float: left;
+}
+.lt-container .main .detail_list .dt-right .inf span.oldPrice{
+    text-decoration: line-through;
+    font-size: 12px;
+    float: left;
+}
+.lt-container .main .detail_list .dt-right .inf span.num{
+    float: right;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.lt-container .main .detail_list .dt-right p.size{
+    font-size: 14px;
+    color: #8f8f94;
+    margin-bottom: 5px;
+}
+.lt-container .lt_total{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lt-container .lt_total span{
+    flex: 1;
+    padding: 0 10px;
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+.lt-container .lt_total span i{}
+.lt-container .lt_total a{
+    display: block;
+    height: 30px;
+   width: 78px;
+   text-align: center;
+   background-color: red;
+   line-height: 30px;
+   color: #fff;
+   font-size: 12px;
+}

@@ -1,0 +1,13 @@
+.lt-container .main {
+   background-color: #fff;
+}
+.lt-container .main form{
+    border-bottom: 1px solid #ccc;
+}
+.lt-container .main a.regist{
+   margin-right: 5px;
+   margin-top: 5px;
+   color: deepskyblue;
+   float: right;
+   font-size: 12px;
+}

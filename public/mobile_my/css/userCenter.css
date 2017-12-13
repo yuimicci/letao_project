@@ -1,0 +1,11 @@
+.lt-container .main a.out{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid #c8c7cc;
+    margin: 10px;
+    border-radius: 6px;
+}

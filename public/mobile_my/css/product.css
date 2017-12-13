@@ -1,0 +1,88 @@
+.lt-container .main p{
+    border-bottom: 1px solid #c8c7cc;
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+#slider{
+    border-bottom: 0;
+}
+.lt-container .main .mui-scroll-wrapper .mui-scroll>div{
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    border-bottom: 1px solid #c8c7cc;
+    font-size: 16px;
+}
+
+.lt-container .main .info>span.price{
+    color: red;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.lt-container .main .info>span.oldPrice{
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.lt-container .main .size>i{
+    margin-right: 10px;
+    font-style: normal;
+}
+.lt-container .main .size>span{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #eee;
+    font-size: 12px;
+    margin: 3px;
+}
+
+
+.lt-container .main .num .mui-numbox{
+    margin-left: 10px;
+}
+.lt-container .main .num>span{
+    font-size: 12px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.lt-container .main .detail>span{
+    font-size: 15px;
+}
+#foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+}
+#foot a{
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    color: deepskyblue;
+}
+#foot span.addCar{
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    margin-right: 2px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 35px;
+}
+#foot span.buy{
+    width: 100px;
+    height: 35px;
+    background-color: orange;
+    margin-right: 10px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 35px;
+}
